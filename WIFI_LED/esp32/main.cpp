@@ -4,8 +4,8 @@
 #include <ArduinoJson.h>
 
 // Replace with your network credentials
-const char* ssid = "Wind3 HUB - EE2DCC";
-const char* password = "2bc45et75b9es2cf";
+const char* ssid = ""; // your wifi name
+const char* password = ""; // your wifi password
 
 // Create an instance of the WebServer
 WebServer server(80);
