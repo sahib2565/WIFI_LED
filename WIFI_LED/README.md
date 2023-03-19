@@ -15,6 +15,12 @@ const char* ssid = ""; // the name of your WiFi
 const char* password = ""; // the password of your WiFi
 ```
 
+and in the html file put the ip address that is shown in your serial monitor
+
+```
+const endpoint = 'http://192.168.1.9:80/switch';
+```
+
 ## Author
 
 ### Il_kima
